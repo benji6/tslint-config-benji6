@@ -2,6 +2,7 @@ module.exports = {
   extends: ['tslint-config-standard'],
   rules: {
     "new-parens": false,
+    "no-empty": false,
     "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
     "whitespace": [
       true,
