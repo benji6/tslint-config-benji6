@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     "new-parens": false,
     "no-empty": false,
+    "radix": false,
     "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
     "whitespace": [
       true,
